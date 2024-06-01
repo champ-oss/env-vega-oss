@@ -1,5 +1,5 @@
 module "vpc" {
-  source                   = "github.com/champ-oss/terraform-aws-vpc.git?ref=v1.0.61-644edee"
+  source                   = "github.com/champ-oss/terraform-aws-vpc.git?ref=v1.0.62-25fa4d3"
   name                     = var.git
   cidr_block               = "10.0.0.0"
   availability_zones_count = 2
